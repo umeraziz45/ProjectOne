@@ -1,0 +1,29 @@
+.home-header__nav {
+  text-align: center;
+}
+
+.home-header__ul {
+  display: flex;
+  // justify-content: center;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.home-header__li--span {
+  color: $white-shade;
+  font-size: 2.1rem;
+  font-family: $ff-primary;
+}
+
+.home-header__a {
+  text-decoration: none;
+  color: $white-shade;
+}
+
+.home-header__a--accent {
+  color: $accent;
+}
