@@ -470,6 +470,7 @@ h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: white;
 }
 
 .home-banner__img {
@@ -485,4 +486,32 @@ h4 {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  background: white;
+  padding-bottom: 60px;
+}
+
+.home-footer {
+  margin-top: 50px;
+}
+
+.home-footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-footer__about,
+.home-footer__contact {
+  width: 100%;
+}
+
+.home-copyright {
+  color: white;
+  background-color: #1f1f1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

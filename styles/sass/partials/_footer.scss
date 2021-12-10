@@ -1,0 +1,19 @@
+.home-footer {
+  margin-top: 50px;
+}
+
+.home-footer__info {
+  display: flex;
+}
+
+.home-footer__about,
+.home-footer__contact {
+  width: 100%;
+}
+
+.home-copyright {
+  color: white;
+  background-color: $black;
+  display: flex;
+  justify-content: center;
+}
