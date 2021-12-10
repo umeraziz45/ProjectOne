@@ -361,6 +361,7 @@ h4 {
 .blog-header__a {
   text-decoration: none;
   color: #f6f6f6;
+  font-family: "Abril Fatface", cursive;
 }
 
 .home-header__a--accent,
