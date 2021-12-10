@@ -1,8 +1,11 @@
-.home-header__nav {
+.home-header__nav,
+.blog-header__nav {
   text-align: center;
+  background-color: $pine;
 }
 
-.home-header__ul {
+.home-header__ul,
+.blog-header__ul {
   display: flex;
   // justify-content: center;
   width: 55%;
@@ -11,19 +14,23 @@
   list-style: none;
   margin: 0 auto;
   padding: 0;
+  // background-color: $pine;
 }
 
-.home-header__li--span {
+.home-header__li--span,
+.blog-header__span {
   color: $white-shade;
   font-size: 2.1rem;
   font-family: $ff-primary;
 }
 
-.home-header__a {
+.home-header__a,
+.blog-header__a  {
   text-decoration: none;
   color: $white-shade;
 }
 
-.home-header__a--accent {
+.home-header__a--accent,
+.blog-header__span{
   color: $accent;
 }

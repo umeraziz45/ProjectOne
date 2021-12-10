@@ -32,3 +32,27 @@
   left: -10%;
 }
 
+// Blog Header
+
+.blog-header {
+  height: 30vh;
+}
+
+.blog-header__hero{
+  background-image: url(../../../assets/blog-image-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  margin-top: 0;
+  position: absolute;
+}
+
+.blog-header__title {
+  height: 10vh;
+  padding-bottom: 20px;
+  margin-top: 0;
+  position: relative;
+  left: 150px;
+  top: 212px;
+}
