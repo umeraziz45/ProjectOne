@@ -436,7 +436,8 @@ h4 {
   margin: 20% auto;
   width: 50%;
   padding: 30px;
-  height: 50%;
+  height: 200px;
+  font-family: "Abril Fatface", cursive;
 }
 
 .home-button__Off {
