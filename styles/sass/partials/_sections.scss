@@ -21,6 +21,60 @@
   border: 1px solid $accent;
 }
 
+// Modal Styling
+
+.home-button__modal {
+  position: relative;
+  top: 0px;
+  left: 1%;
+}
+
+.home-button__modal:hover{
+  color: white;
+  background-color: black;
+
+}
+
+.home-button__container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.home-button__content {
+  position: relative;
+  background-color: $accent;
+  color: $black;
+  margin: 20% auto;
+  width: 50%;
+  padding: 30px;
+  height: 50%;
+
+}
+
+.home-button__Off {
+  color: grey;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  font-size: 1.5rem;
+
+}
+
+.home-button__Off:hover,
+.home-button__Off:focus {
+  color: $black;
+  cursor: pointer;
+}
+
+//End of Modal Styling
+
 .home-favourite-things {
   display: flex;
   flex-direction: row;
